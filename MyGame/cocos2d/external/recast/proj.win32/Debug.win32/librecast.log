@@ -1,0 +1,29 @@
+﻿2018/07/10 16:11:17 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "C:\Users\USER\Desktop\shootingProject\MyGame\cocos2d\external\recast\proj.win32\librecast.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../ /Zi /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\fastlz\fastlz.c
+         fastlz.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\Debug.win32\librecast.lib" /NOLOGO Debug.win32\DebugDraw.obj
+         Debug.win32\DetourDebugDraw.obj
+         Debug.win32\DetourCrowd.obj
+         Debug.win32\DetourLocalBoundary.obj
+         Debug.win32\DetourObstacleAvoidance.obj
+         Debug.win32\DetourPathCorridor.obj
+         Debug.win32\DetourPathQueue.obj
+         Debug.win32\DetourProximityGrid.obj
+         Debug.win32\DetourTileCache.obj
+         Debug.win32\DetourTileCacheBuilder.obj
+         Debug.win32\DetourAlloc.obj
+         Debug.win32\DetourCommon.obj
+         Debug.win32\DetourNavMesh.obj
+         Debug.win32\DetourNavMeshBuilder.obj
+         Debug.win32\DetourNavMeshQuery.obj
+         Debug.win32\DetourNode.obj
+         Debug.win32\fastlz.obj
+         librecast.vcxproj -> C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\Debug.win32\librecast.lib
+     1>プロジェクト "C:\Users\USER\Desktop\shootingProject\MyGame\cocos2d\external\recast\proj.win32\librecast.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.13
