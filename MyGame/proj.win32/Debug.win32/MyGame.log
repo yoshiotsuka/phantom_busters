@@ -1,0 +1,32 @@
+﻿2018/07/10 16:13:03 にビルドを開始しました。
+     1>ノード 3 上のプロジェクト "C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\MyGame.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\USER\Desktop\shootingProject\MyGame\cocos2d\cocos\2d\..\..\ /IC:\Users\USER\Desktop\shootingProject\MyGame\cocos2d\cocos\2d\..\..\external /IC:\Users\USER\Desktop\shootingProject\MyGame\cocos2d\cocos\2d\..\..\cocos\audio\include /IC:\Users\USER\Desktop\shootingProject\MyGame\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk /IC:\Users\USER\Desktop\shootingProject\MyGame\cocos2d\cocos\2d\..\..\extensions /I..\Classes /I.. /IC:\Users\USER\Desktop\shootingProject\MyGame\cocos2d\cocos\2d\..\..\cocos /I"C:\Users\USER\Desktop\shootingProject\MyGame\cocos2d\cocos\2d\..\..\cocos/editor-support" /IC:\Users\USER\Desktop\shootingProject\MyGame\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"C:\Users\USER\Desktop\shootingProject\MyGame\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /IC:\Users\USER\Desktop\shootingProject\MyGame\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\freetype2 /IC:\Users\USER\Desktop\shootingProject\MyGame\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\ /IC:\Users\USER\Desktop\shootingProject\MyGame\cocos2d\cocos\2d\..\..\external /IC:\Users\USER\Desktop\shootingProject\MyGame\cocos2d\cocos\2d\..\..\external\openssl\include\win32 /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\HelloWorldScene.cpp
+         AppDelegate.cpp
+         HelloWorldScene.cpp
+     1>c:\users\user\desktop\shootingproject\mygame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\HelloWorldScene.cpp)
+     1>c:\users\user\desktop\shootingproject\mygame\cocos2d\cocos\base\ccutf8.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\AppDelegate.cpp)
+     1>c:\users\user\desktop\shootingproject\mygame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\AppDelegate.cpp)
+     1>c:\users\user\desktop\shootingproject\mygame\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (..\Classes\HelloWorldScene.cpp)
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\Debug.win32\MyGame.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\Debug.win32\ /LIBPATH:C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\Debug.win32\ libcurl.lib opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib libbox2d.lib libSpine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\Debug.win32\MyGame.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\Debug.win32\MyGame.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\main.obj
+         C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\Debug.win32\libcocos2d.lib
+         C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\Debug.win32\libSpine.lib
+         C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\Debug.win32\libbox2d.lib
+     1>AppDelegate.obj : warning LNK4075: /EDITANDCONTINUE は /SAFESEH の指定によって無視されます。
+            ライブラリ C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\Debug.win32\MyGame.lib とオブジェクト C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\Debug.win32\MyGame.exp を作成中
+         MyGame.vcxproj -> C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\Debug.win32\MyGame.exe
+       CustomBuildStep:
+         if not exist "C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\Debug.win32\" mkdir "C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\Debug.win32\"
+         xcopy "C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\..\Resources" "C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\Debug.win32\" /D /E /I /F /Y
+               
+         :VCEnd
+         0 個のファイルをコピーしました
+     1>プロジェクト "C:\Users\USER\Desktop\shootingProject\MyGame\proj.win32\MyGame.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:10.56
